@@ -6,6 +6,12 @@ body{
       font-family: "Inter", sans-serif;
        font-optical-sizing: auto;
 }
+p{
+    font-size: 16px;
+     color: #627382;
+     line-height: 20px;
+}
+
 /* header--area */
 .navand_a {
     display: flex;
@@ -15,7 +21,9 @@ body{
 }
 .wrapper {
     max-width: 1600px;
-    margin: auto;
+    margin: 0 auto;
+}
+.wrapper_header {
     display: flex;
     justify-content: space-between;
 }
@@ -120,4 +128,56 @@ span.textss {
 .btn_secondary img{
     max-width: 16px;
 }
+.after_hero_sec{
+    background-color: #FBFBFB;
+}
+.notes_sec{
+    text-align: center;
+}
+.notes_sec h2{
+    color: #001931;
+    font-size: 48px;
+    padding-top: 70px;
+margin-bottom: 10px;
+}
+.notes_sec p{
+    color: #627382;
+}
+.card_contaner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 35px;
+}
+.card {
+    box-shadow: 0 0px 8px 0 #00000012;
+    padding: 50px 30px;
+    background-color: #fff;
+
+}
+.icons {
+    text-align: center;
+
+}
+.icons>div {
+    background: #F95555;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card h3{
+    font-size: 24px;
+    color: #001931;
+    margin: 16px 0px;
+    background-color: #fff;
+}
+.card p{
+    font-size: 18px;
+}
+
 
