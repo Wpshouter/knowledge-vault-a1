@@ -18,7 +18,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 66%;
+    width: 61.5%
 }
 .wrapper {
     max-width: 1600px;
@@ -235,10 +235,10 @@ section.challenge_sec {
 .btn_primary.btnere {
     max-width: 160px;
     margin: 30px auto;
-    box-shadow: 0 10px 20px #00000036;
-}
-a.btn_primary.btnere {
-    justify-content: space-between;
+    border-radius: 4px;
+box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+background: var(--#30B868, rgba(70, 145, 101, 1));
+justify-content: space-between;
 }
 .p_heler {
     display: flex;
