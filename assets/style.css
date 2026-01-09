@@ -14,12 +14,7 @@ p{
 }
 
 /* header--area */
-.navand_a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 61.5%
-}
+
 .wrapper {
     max-width: 1600px;
     margin: 0 auto;
@@ -45,8 +40,14 @@ nav ul {
     display: flex;
     gap: 32px;
 }
+.btn_primary:hover,.btn_secondary:hover{
+    background-color: #424242;
+    color: #fff;
+    border-color: #fff;
+}
 .btn_primary{
     background-color: #469165;
+    border: 1px solid #469165;
     padding: 12px 16px;
     color:#fff;
     border-radius: 4px;
@@ -54,6 +55,8 @@ nav ul {
         display: flex;
     align-items: center;
     gap: 10px;
+    transition: .3s;
+    transition-property: all;
 }
 header .wrapper {
     padding: 10px 0px;
@@ -126,7 +129,10 @@ span.textss {
     display: flex;
     align-items: center;
     gap: 10px;
+        transition: .3s;
+    transition-property: all;
 }
+
 .btn_secondary img{
     max-width: 16px;
 }
